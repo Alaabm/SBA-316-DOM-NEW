@@ -1,7 +1,11 @@
-const tilesContainer = document.querySelector(".tilesContainer");
-const colors = ["red", "blue", "green", "yellow", "orange", "purple", "pink", "brown"];
-const colorsArray = [...colors, ...colors];
+const tileContainer = document.querySelector("tileContainer");
+const tiles = document.querySelectorAll("tile");
+const allColorOptions = ["red", "blue", "green", "yellow", "orange", "purple", "pink", "brown"];
+// console.log(allColorOptions);
+const colorsArray = [...allColorOptions, ...allColorOptions];
+// console.log(colorsArray);
 const tileCount = colorsArray.length;
+// console.log(tileCount);
 
 //header complete
 const header = document.querySelector("header");
@@ -31,10 +35,6 @@ userInput.style.margin = "10px";
 const submitBtn = document.getElementById("submitId");
 submitBtn.style.margin = "10px";
 
-// const playerName = document.createElement("h3");
-// h3.textContent = " ";
-// mainEl.appendChild(h3);
-
 
 const playerName = document.getElementById("playerName");
 playerName.style.color = "orange";
@@ -43,7 +43,54 @@ submitBtn.addEventListener("click", () => {
     playerName.textContent = grabUserName;
 });
 
-console.log(playerName);
+
+
+
+
+
+
+
+
+
+
+
+// resetBtn.addEventListener("click", () => {
+    
+// // });
+
+// const tileCollection = document.querySelectorAll ("tile");
+// tileCollection.forEach((tiles) => {
+//     tiles.style.backgroundColor = "black";
+// })
+
+
+
+
+
+    // console.log(divCollection);
+// function buildTile (color) {
+//     const divEl = document.createElement("div");
+//     divEl.classList.add("tile");
+//     divEl.setAttribute("data-color", color);
+// }
+
+
+
+
+
+
+
+// tiles.addEventListener("onClick", () => {
+   
+//         evt.target.classList.toggle("one");
+// });
+
+// for (let i = 0; i < tiles.length; i++) {
+//     tiles[i].addEventListener("click", () => {
+//         tiles[i].classList.toggle(allColorOptions[i]);
+//     });
+// };
+
 
 
 

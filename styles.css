@@ -25,7 +25,7 @@ h1{
     color: white;
 }
 
-.tilesContainer {
+.tileContainer {
     margin: 48px auto;
     width: max-content;
     display: grid;
@@ -33,3 +33,74 @@ h1{
     gap: 16px;
 }
 
+.tile {
+    height: 100px;
+    background: #111111;
+    border: 5px solid #444444;
+    cursor: pointer;
+    background-color: black;
+}
+/* 
+#red {
+    background-color: red ;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#brown {
+    background-color: brown;
+} */
+
+#one {
+    background-color: red ;
+}
+
+#two {
+    background-color: blue;
+}
+
+#three {
+    background-color: green;
+}
+
+#four {
+    background-color: yellow;
+}
+
+#five {
+    background-color: purple;
+}
+
+#six {
+    background-color: orange;
+}
+
+#seven {
+    background-color: pink;
+}
+
+#eight {
+    background-color: brown;
+}
